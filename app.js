@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var lessMiddleware = require('less-middleware');
 
-var index = require('./routes/index');
+var index = require('./routes/index/index');
 var users = require('./routes/users');
 
 var app = express();
