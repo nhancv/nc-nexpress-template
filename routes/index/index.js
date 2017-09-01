@@ -5,7 +5,14 @@ var Logic = require('./logic');
 /* GET home page. */
 router.get('/', function (req, res, next) {
     var logic = new Logic(10);
-    res.render('index', {title: 'Express: ' + logic.hello()});
+
+    var bindData = {
+        title: logic.hello(),
+        hello: logic.hello()
+    };
+
+
+    res.render('index', bindData);
 });
 
 module.exports = router;
