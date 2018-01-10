@@ -1,44 +1,13 @@
-#Eclipse
-.project
-.classpath
-.settings
 
 #IntelliJ IDEA
-*.idea
-*.iml
-*.ipr
-*.iws
+.idea
+.iml
 out
 build
-
-#Ant
-build.xml
-local.properties
-proguard.cfg
-#Gradle
-.gradle
 
 #OSX
 .DS_Store
 
-#Windows
-*.db
+node_modules
+bower_components
 
-*.log
-*target
-*overlays
-.metadata
-build.sh
-.springBeans
-nbactions.xml
-.mtj
-
-*platforms
-*node_modules
-*bower_components
-/plugins
-*.bzr
-*.bzrignore
-
-/vendor/
-*.hprof
